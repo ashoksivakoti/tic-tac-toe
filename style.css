@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Julee");
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: black;
+    color: whitesmoke;
+    height: 65px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vh);
+    grid-template-columns: repeat(3,10vh);
+    font-family: "Julee",sans-serif;
+    font-weight: 400;
+
+}
+
+.box{
+    border: solid black 2px;
+    font-size: 8vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(205, 213, 216);
+}
+
+#status{
+    margin: 30px;
+    font-size: 5vh;
+    font-family: "Walter Turncoat",sans-serif;
+    font-weight: 500;
+}
+
+#restart{
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 3vh;
+    background-color: skyblue;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: black;
+}
+
+#restart:hover{
+    background-color: aquamarine;
+}
+.gameInfo{
+    padding: 0 30px;
+    margin: 20px;
+
+}
+
+.br-t{
+    border-top: 0px;
+}
+
+.br-b{
+    border-bottom: 0px;
+
+}
+.br-r{
+    border-right: 0px;
+}
+
+.br-l{
+    border-left: 0px;
+}
